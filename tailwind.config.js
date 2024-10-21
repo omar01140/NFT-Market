@@ -17,6 +17,7 @@ module.exports = {
       fontSize: {
         'h4': ['28px', { lineHeight: '1.4', fontWeight: 600}],
         'h5': ['20px', {lineHeight: '1.4', fontWeight: 600}],
+        'h6': ['16px', {lineHeight: '1.4', fontWeight: 600}],
         'Base(body)': ['16px', { lineHeight: '1.4' , fontWeight: 300}],
         'h5-spaceMono': ['22px', {lineHeight: '1.6', fontWeight: 700}],
         'h-spaceMono': ['16px', {lineHeight: '1.4', fontWeight: 700}],
