@@ -554,27 +554,276 @@ video {
   display: none;
 }
 
-.text-center {
-  text-align: center;
+.col-span-3 {
+  grid-column: span 3 / span 3;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.font-bold {
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.-mb-1 {
+  margin-bottom: -0.25rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-0\.5 {
+  height: 0.125rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[93\.4px\] {
+  height: 93.4px;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[93\.4px\] {
+  width: 93.4px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-40 {
+  max-width: 10rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-Action {
+  --tw-border-opacity: 1;
+  border-color: rgb(162 89 255 / var(--tw-border-opacity));
+}
+
+.bg-Action {
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 89 255 / var(--tw-bg-opacity));
+}
+
+.bg-Background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+}
+
+.bg-Background-Secondry {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 59 59 / var(--tw-bg-opacity));
+}
+
+.bg-Text {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.stroke-Action {
+  stroke: #A259FF;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.font-space-mono {
+  font-family: "Space Mono", monospace;
+}
+
+.font-work-sans {
+  font-family: "Work Sans", Helvetica;
+}
+
+.text-Base\(body\) {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.text-h-spaceMono {
+  font-size: 16px;
+  line-height: 1.4;
   font-weight: 700;
 }
 
-.text-main {
-  --tw-text-opacity: 1;
-  color: rgb(214 103 166 / var(--tw-text-opacity));
+.text-h4 {
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 600;
 }
 
-@media (min-width: 1280px) {
-  .xl\:text-main {
-    --tw-text-opacity: 1;
-    color: rgb(214 103 166 / var(--tw-text-opacity));
-  }
+.text-h5 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.text-h5-spaceMono {
+  font-size: 22px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-Label {
+  --tw-text-opacity: 1;
+  color: rgb(133 133 132 / var(--tw-text-opacity));
+}
+
+.text-Text {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.counter::before{
+  content: counter(counter);
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  display: flex;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(133 133 132 / var(--tw-text-opacity))
+}
+
+.counter{
+  counter-increment: counter;
+  position: relative
 }
