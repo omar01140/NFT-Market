@@ -8,6 +8,7 @@ module.exports = {
       'Label':'#858584',
       'Text':'#FFFFFF',
       'Action':'#A259FF',
+      'Footer':'#CCCCCC',
     },
     extend: {
       fontFamily: {
@@ -15,14 +16,19 @@ module.exports = {
         'space-mono': ['"Space Mono"', 'monospace'],
       },
       fontSize: {
+        'h3': ['38px', { lineHeight: '1.2', fontWeight: 600}],
         'h4': ['28px', { lineHeight: '1.4', fontWeight: 600}],
         'h5': ['20px', {lineHeight: '1.4', fontWeight: 600}],
         'h6': ['16px', {lineHeight: '1.4', fontWeight: 600}],
         'Base(body)': ['16px', { lineHeight: '1.4' , fontWeight: 300}],
+        'how': ['12px', {lineHeight: '1.4', fontWeight: 300}],
         'h5-spaceMono': ['22px', {lineHeight: '1.6', fontWeight: 700}],
         'h-spaceMono': ['16px', {lineHeight: '1.4', fontWeight: 700}],
         'caption-spaceMono': ['12px', {lineHeight: '1.1', fontWeight: 400}],
       },
+      backgroundImage: {
+        'hero-pattern': "url('images/NFT Highlight.png')",
+      }
     },
   },
   plugins: [],
