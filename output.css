@@ -558,6 +558,10 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -566,6 +570,11 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
 .-mb-1 {
@@ -596,8 +605,12 @@ video {
   margin-top: 0.625rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -620,8 +633,8 @@ video {
   height: 60px;
 }
 
-.h-\[93\.4px\] {
-  height: 93.4px;
+.h-full {
+  height: 100%;
 }
 
 .w-4 {
@@ -636,8 +649,9 @@ video {
   width: 1.5rem;
 }
 
-.w-\[93\.4px\] {
-  width: 93.4px;
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .w-full {
@@ -648,24 +662,28 @@ video {
   max-width: 10rem;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
 
-.content-start {
-  align-content: flex-start;
-}
-
 .items-start {
   align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -694,6 +712,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -759,14 +781,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
@@ -780,6 +794,20 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .font-space-mono {
@@ -826,6 +854,12 @@ video {
   font-weight: 600;
 }
 
+.text-caption-spaceMono {
+  font-size: 12px;
+  line-height: 1.1;
+  font-weight: 400;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -856,7 +890,7 @@ video {
   font-family: "Space Mono", monospace;
   font-size: 16px;
   line-height: 1.4;
-  font-weight: 700;
+  font-weight: 300;
   --tw-text-opacity: 1;
   color: rgb(133 133 132 / var(--tw-text-opacity))
 }

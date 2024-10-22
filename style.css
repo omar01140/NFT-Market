@@ -9,6 +9,6 @@
 @layer utilities {
     .counter::before{
         content: counter(counter);
-        @apply w-[30px] h-[30px] rounded-full bg-Background text-h-spaceMono text-Label font-space-mono flex justify-center items-center absolute top-3 left-3
+        @apply w-[30px] h-[30px] rounded-full bg-Background text-Base(body) text-Label font-space-mono flex justify-center items-center absolute top-3 left-3
     }
 }

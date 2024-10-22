@@ -21,6 +21,7 @@ module.exports = {
         'Base(body)': ['16px', { lineHeight: '1.4' , fontWeight: 300}],
         'h5-spaceMono': ['22px', {lineHeight: '1.6', fontWeight: 700}],
         'h-spaceMono': ['16px', {lineHeight: '1.4', fontWeight: 700}],
+        'caption-spaceMono': ['12px', {lineHeight: '1.1', fontWeight: 400}],
       },
     },
   },
