@@ -1457,6 +1457,10 @@ video {
     justify-content: center;
   }
 
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:gap-7 {
     gap: 1.75rem;
   }
