@@ -6,6 +6,10 @@
     counter-increment: counter;
     @apply relative
 }
+.click{
+    cursor: pointer;
+    transition: all .3s ease;
+}
 @layer utilities {
     .counter::before{
         content: counter(counter);

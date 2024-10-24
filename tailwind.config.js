@@ -9,6 +9,7 @@ module.exports = {
       'Text':'#FFFFFF',
       'Action':'#A259FF',
       'Footer':'#CCCCCC',
+      'gray':'#BDBDBD',
     },
     extend: {
       fontFamily: {
