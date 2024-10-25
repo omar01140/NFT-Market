@@ -19,14 +19,16 @@
         <div class="hidden xl:flex gap-2.5 w-fit">
             <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Marketplace</button>
             <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Rankings</button>
-            <button class="px-5 py-3 w-fit text-h6 text-nowrap hover:scale-95 click">Connect a wallet</button>
-            <button class="flex w-[150px] items-center justify-center h-[50px] bg-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.124C8.57374 13.124 7.17251 13.4995 5.93728 14.2128C4.70205 14.926 3.67634 15.9518 2.96327 17.1872C2.79071 17.4861 2.40848 17.5886 2.10953 17.416C1.81058 17.2435 1.70812 16.8612 1.88068 16.5623C2.70345 15.1369 3.88696 13.9532 5.31223 13.1303C6.7375 12.3073 8.3543 11.874 10.0001 11.874C11.6459 11.874 13.2627 12.3073 14.688 13.1303C16.1132 13.9532 17.2968 15.1369 18.1195 16.5623C18.2921 16.8612 18.1896 17.2435 17.8907 17.416C17.5917 17.5886 17.2095 17.4861 17.0369 17.1872C16.3239 15.9518 15.2982 14.926 14.0629 14.2128C12.8277 13.4995 11.4265 13.124 10.0001 13.124Z" fill="white"/>
-                </svg>
-                <p>Sign Up</p>
-            </button>
+            <a href="connect wallet.html"><button class="px-5 py-3 w-fit text-h6 text-nowrap hover:scale-95 click">Connect a wallet</button></a>
+            <a href="createAcc.html">
+                <button class="flex w-[150px] items-center justify-center h-[50px] bg-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.124C8.57374 13.124 7.17251 13.4995 5.93728 14.2128C4.70205 14.926 3.67634 15.9518 2.96327 17.1872C2.79071 17.4861 2.40848 17.5886 2.10953 17.416C1.81058 17.2435 1.70812 16.8612 1.88068 16.5623C2.70345 15.1369 3.88696 13.9532 5.31223 13.1303C6.7375 12.3073 8.3543 11.874 10.0001 11.874C11.6459 11.874 13.2627 12.3073 14.688 13.1303C16.1132 13.9532 17.2968 15.1369 18.1195 16.5623C18.2921 16.8612 18.1896 17.2435 17.8907 17.416C17.5917 17.5886 17.2095 17.4861 17.0369 17.1872C16.3239 15.9518 15.2982 14.926 14.0629 14.2128C12.8277 13.4995 11.4265 13.124 10.0001 13.124Z" fill="white"/>
+                    </svg>
+                    <p>Sign Up</p>
+                </button>
+            </a>
         </div>
         <div class="space-y-1 xl:hidden">
             <div class="w-4 h-0.5 bg-Text"></div>
@@ -36,16 +38,18 @@
     </nav>
     <!-- End Nav -->
     <!-- Start body -->
-    <div class="flex flex-col gap-[30px] sm:gap-0 sm:flex-row sm:justify-center sm:items-center">
-        <img class="sm:hidden" src="images/createAcc.png" alt="img">
-        <img class="hidden sm:block xl:hidden max-w-[400px] min-h-[600px] mr-auto" src="images/createacc2.png" alt="img">
-        <img class="hidden xl:block mr-auto" src="images/createacc3.png" alt="img">
-        <div class="px-[30px] flex flex-col gap-[30px] ">
+    <div class="flex flex-col gap-[30px] sm:gap-0 sm:flex-row sm:justify-start sm:items-center">
+        <div class="flex justify-start">
+            <img class="sm:hidden" src="images/createAcc.png" alt="img">
+            <img class="hidden sm:block xl:hidden max-w-[400px] min-h-[600px]" src="images/createacc2.png" alt="img">
+            <img class="hidden xl:block" src="images/createacc3.png" alt="img">
+        </div>
+        <div class="px-[30px] flex flex-col gap-[30px] sm:mx-auto">
             <div >
                 <h1 class="text-h3 xl:text-h2 mb-5">Create Account</h1>
                 <p class="text-Base(body) xl:text-body xl:max-w-[500px]">Welcome! enter your details and start creating, collecting and selling NFTs.</p>
             </div>
-            <div class="flex flex-col gap-[15px] xl:max-w-[350px]">
+            <div class="flex flex-col gap-[15px] xl:max-w-96 md:max-w-96">
                 <div class="relative text-Background">
                     <svg class="absolute left-5 top-1/2 -translate-y-1/2" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="#BDBDBD"/>
@@ -79,11 +83,10 @@
                     <input class="flex w-full items-center justify-start h-12 border-none outline-none rounded-full py-3 pr-5 pl-[52px] text-Base(body) placeholder:font-normal placeholder:text-Base(body) placeholder:text-gray" type="text" placeholder="Confirm Password">
                 </div>
             </div>
-            <button class="flex w-full items-center xl:max-w-[350px] mb-10 justify-center h-12 bg-Action rounded-2xl space-x-2 font-semibold hover:scale-95 click">
+            <button class="flex w-full items-center xl:max-w-96 md:max-w-96 mb-10 justify-center h-12 bg-Action rounded-2xl space-x-2 font-semibold hover:scale-95 click">
                 <p>Create account</p>
             </button>
         </div>
-
     </div>
     <!-- End body -->
     <!-- Start footer -->

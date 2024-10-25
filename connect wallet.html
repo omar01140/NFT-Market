@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link href="output.css" rel="stylesheet">
+    <title>Connect Wallet</title>
+</head>
+<body class="bg-Background flex flex-col text-Text font-work-sans">
+    <!-- Start Nav -->
+    <nav class="flex justify-between items-center px-7 py-4 xl:px-[50px] xl:py-5">
+        <a href="index.html">
+            <img class="max-w-40 xl:max-w-60 xl:h-8 cursor-pointer" src="images/logo.svg" alt="logo">
+        </a>
+        <div class="hidden xl:flex gap-2.5 w-fit">
+            <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Marketplace</button>
+            <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Rankings</button>
+            <a href="connect wallet.html"><button class="px-5 py-3 w-fit text-h6 text-nowrap hover:scale-95 click">Connect a wallet</button></a>
+            <a href="createAcc.html">
+                <button class="flex w-[150px] items-center justify-center h-[50px] bg-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.124C8.57374 13.124 7.17251 13.4995 5.93728 14.2128C4.70205 14.926 3.67634 15.9518 2.96327 17.1872C2.79071 17.4861 2.40848 17.5886 2.10953 17.416C1.81058 17.2435 1.70812 16.8612 1.88068 16.5623C2.70345 15.1369 3.88696 13.9532 5.31223 13.1303C6.7375 12.3073 8.3543 11.874 10.0001 11.874C11.6459 11.874 13.2627 12.3073 14.688 13.1303C16.1132 13.9532 17.2968 15.1369 18.1195 16.5623C18.2921 16.8612 18.1896 17.2435 17.8907 17.416C17.5917 17.5886 17.2095 17.4861 17.0369 17.1872C16.3239 15.9518 15.2982 14.926 14.0629 14.2128C12.8277 13.4995 11.4265 13.124 10.0001 13.124Z" fill="white"/>
+                    </svg>
+                    <p>Sign Up</p>
+                </button>
+            </a>
+        </div>
+        <div class="space-y-1 xl:hidden">
+            <div class="w-4 h-0.5 bg-Text"></div>
+            <div class="w-5 h-0.5 bg-Text"></div>
+            <div class="w-4 h-0.5 bg-Text"></div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start body -->
+    <div class="flex flex-col gap-[30px] sm:gap-0 sm:flex-row sm:justify-start sm:items-center">
+        <div class="flex justify-start">
+            <img class="sm:hidden" src="images/connect.png" alt="img">
+            <img class="hidden sm:block xl:hidden max-w-[400px] min-h-[600px]" src="images/connect2.png" alt="img">
+            <img class="hidden xl:block" src="images/connect3.png" alt="img">
+        </div>
+        <div class="px-[30px] flex flex-col gap-[30px] sm:mx-auto">
+            <div>
+                <h1 class="text-h3 xl:text-h2 mb-5">Connect Wallet</h1>
+                <p class="text-Base(body) xl:text-body xl:max-w-[500px]">Choose a wallet you want to connect. There are several wallet providers.</p>
+            </div>
+            <div class="flex flex-col gap-5 mb-10 xl:max-w-96 md:max-w-96">
+                <button class="flex w-full items-center justify-start md:justify-self-end md:self-center border-2 border-Action rounded-2xl space-x-5 text-h6 hover:scale-95 click">
+                    <svg class="my-3.5 ml-10" width="32" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_3424_8078)">
+                            <path d="M30.9062 1.25L18.4199 10.5237L20.7289 5.05235L30.9062 1.25Z" fill="#E2761B" stroke="#E2761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.08203 1.25L14.4679 10.6116L12.2718 5.05235L2.08203 1.25Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M26.4134 22.7461L23.0879 27.841L30.2032 29.7986L32.2487 22.859L26.4134 22.7461Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M0.763672 22.859L2.79661 29.7986L9.91191 27.841L6.58642 22.7461L0.763672 22.859Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.51009 14.1386L7.52734 17.1378L14.5924 17.4515L14.3415 9.85938L9.51009 14.1386Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23.4772 14.1385L18.5831 9.77148L18.4199 17.4515L25.4725 17.1378L23.4772 14.1385Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.91211 27.8419L14.1537 25.7713L10.4894 22.9102L9.91211 27.8419Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.834 25.7713L23.0881 27.8419L22.4983 22.9102L18.834 25.7713Z" fill="#E4761B" stroke="#E4761B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M23.0881 27.8421L18.834 25.7715L19.1728 28.5448L19.1352 29.7119L23.0881 27.8421Z" fill="#D7C1B3" stroke="#D7C1B3" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.91211 27.8421L13.8651 29.7119L13.84 28.5448L14.1537 25.7715L9.91211 27.8421Z" fill="#D7C1B3" stroke="#D7C1B3" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.9275 21.0781L10.3887 20.0365L12.8859 18.8945L13.9275 21.0781Z" fill="#233447" stroke="#233447" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.0605 21.0781L20.1021 18.8945L22.6119 20.0365L19.0605 21.0781Z" fill="#233447" stroke="#233447" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.91143 27.841L10.5138 22.7461L6.58594 22.859L9.91143 27.841Z" fill="#CD6116" stroke="#CD6116" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22.4863 22.7461L23.0887 27.841L26.4142 22.859L22.4863 22.7461Z" fill="#CD6116" stroke="#CD6116" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25.4725 17.1367L18.4199 17.4504L19.0725 21.0771L20.114 18.8936L22.6238 20.0355L25.4725 17.1367Z" fill="#CD6116" stroke="#CD6116" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.3885 20.0355L12.8983 18.8936L13.9273 21.0771L14.5924 17.4504L7.52734 17.1367L10.3885 20.0355Z" fill="#CD6116" stroke="#CD6116" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.52734 17.1367L10.4889 22.9093L10.3885 20.0355L7.52734 17.1367Z" fill="#E4751F" stroke="#E4751F" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22.6235 20.0355L22.498 22.9093L25.4722 17.1367L22.6235 20.0355Z" fill="#E4751F" stroke="#E4751F" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14.5928 17.4512L13.9277 21.0778L14.756 25.3571L14.9442 19.7225L14.5928 17.4512Z" fill="#E4751F" stroke="#E4751F" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.4209 17.4512L18.082 19.71L18.2326 25.3571L19.0734 21.0778L18.4209 17.4512Z" fill="#E4751F" stroke="#E4751F" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.0732 21.0767L18.2324 25.3559L18.8348 25.7701L22.4991 22.9089L22.6246 20.0352L19.0732 21.0767Z" fill="#F6851B" stroke="#F6851B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10.3887 20.0352L10.4891 22.9089L14.1534 25.7701L14.7557 25.3559L13.9275 21.0767L10.3887 20.0352Z" fill="#F6851B" stroke="#F6851B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.1356 29.7116L19.1733 28.5445L18.8596 28.2685H14.1286L13.84 28.5445L13.8651 29.7116L9.91211 27.8418L11.2925 28.9712L14.0909 30.9163H18.8972L21.7082 28.9712L23.0886 27.8418L19.1356 29.7116Z" fill="#C0AD9E" stroke="#C0AD9E" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.8344 25.7715L18.232 25.3574H14.7559L14.1536 25.7715L13.8398 28.5449L14.1285 28.2688H18.8595L19.1732 28.5449L18.8344 25.7715Z" fill="#161616" stroke="#161616" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M31.4332 11.1261L32.4999 6.00608L30.9061 1.25L18.834 10.21L23.4771 14.1378L30.0403 16.0578L31.4959 14.3637L30.8685 13.912L31.8724 12.9959L31.0944 12.3935L32.0983 11.628L31.4332 11.1261Z" fill="#763D16" stroke="#763D16" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M0.5 6.00608L1.56667 11.1261L0.88902 11.628L1.89294 12.3935L1.12745 12.9959L2.13137 13.912L1.50392 14.3637L2.94706 16.0578L9.5102 14.1378L14.1533 10.21L2.08118 1.25L0.5 6.00608Z" fill="#763D16" stroke="#763D16" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30.04 16.0587L23.4769 14.1387L25.4722 17.1379L22.498 22.9104L26.4133 22.8602H32.2486L30.04 16.0587Z" fill="#F6851B" stroke="#F6851B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9.51034 14.1387L2.9472 16.0587L0.763672 22.8602H6.58642L10.4892 22.9104L7.52759 17.1379L9.51034 14.1387Z" fill="#F6851B" stroke="#F6851B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.4205 17.4512L18.8346 10.2104L20.7421 5.05273H12.2715L14.1538 10.2104L14.5931 17.4512L14.7436 19.7351L14.7562 25.357H18.2323L18.2574 19.7351L18.4205 17.4512Z" fill="#F6851B" stroke="#F6851B" stroke-width="0.3125" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_3424_8078">
+                            <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                            </clipPath>
+                            </defs>
+                    </svg>
+                <p class="text-h5">Metamask</p>
+                </button>
+                <button class="flex w-full items-center justify-start md:justify-self-end md:self-center border-2 border-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                    <svg class="my-3.5 ml-10" width="32" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3424_8117)">
+                        <path d="M16.5 32C25.3366 32 32.5 24.8366 32.5 16C32.5 7.16344 25.3366 0 16.5 0C7.66344 0 0.5 7.16344 0.5 16C0.5 24.8366 7.66344 32 16.5 32Z" fill="url(#paint0_radial_3424_8117)"/>
+                        <path d="M10.5469 12.3578C13.7656 9.21406 18.9906 9.21406 22.2094 12.3578L22.5969 12.7391C22.7594 12.8953 22.7594 13.1516 22.5969 13.3078L21.2719 14.6016C21.1906 14.6828 21.0594 14.6828 20.9781 14.6016L20.4469 14.0828C18.1969 11.8891 14.5594 11.8891 12.3094 14.0828L11.7406 14.6391C11.6594 14.7203 11.5281 14.7203 11.4469 14.6391L10.1219 13.3453C9.95938 13.1891 9.95938 12.9328 10.1219 12.7766L10.5469 12.3578ZM24.9531 15.0328L26.1344 16.1828C26.2969 16.3391 26.2969 16.5953 26.1344 16.7516L20.8156 21.9453C20.6531 22.1016 20.3906 22.1016 20.2344 21.9453L16.4594 18.2578C16.4219 18.2203 16.3531 18.2203 16.3156 18.2578L12.5406 21.9453C12.3781 22.1016 12.1156 22.1016 11.9594 21.9453L6.62187 16.7516C6.45938 16.5953 6.45938 16.3391 6.62187 16.1828L7.80312 15.0328C7.96562 14.8766 8.22813 14.8766 8.38438 15.0328L12.1594 18.7203C12.1969 18.7578 12.2656 18.7578 12.3031 18.7203L16.0781 15.0328C16.2406 14.8766 16.5031 14.8766 16.6594 15.0328L20.4344 18.7203C20.4719 18.7578 20.5406 18.7578 20.5781 18.7203L24.3531 15.0328C24.5281 14.8766 24.7906 14.8766 24.9531 15.0328Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <radialGradient id="paint0_radial_3424_8117" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.500099 16.0005) scale(32)">
+                        <stop stop-color="#5D9DF6"/>
+                        <stop offset="1" stop-color="#006FFF"/>
+                        </radialGradient>
+                        <clipPath id="clip0_3424_8117">
+                        <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                    <p class="text-h5">Wallet Connect</p>
+                </button>
+                <button class="flex w-full items-center justify-start md:justify-self-end md:self-center border-2 border-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                    <svg class="my-3.5 ml-10" width="32" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3424_8124)">
+                        <path d="M16.5 32C25.3366 32 32.5 24.8366 32.5 16C32.5 7.16344 25.3366 0 16.5 0C7.66344 0 0.5 7.16344 0.5 16C0.5 24.8366 7.66344 32 16.5 32Z" fill="#0052FF"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25 16C5.25 22.2132 10.2868 27.25 16.5 27.25C22.7132 27.25 27.75 22.2132 27.75 16C27.75 9.78678 22.7132 4.75 16.5 4.75C10.2868 4.75 5.25 9.78678 5.25 16ZM13.625 12.375C13.2108 12.375 12.875 12.7108 12.875 13.125V18.875C12.875 19.2892 13.2108 19.625 13.625 19.625H19.375C19.7892 19.625 20.125 19.2892 20.125 18.875V13.125C20.125 12.7108 19.7892 12.375 19.375 12.375H13.625Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_3424_8124">
+                        <rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                    <p class="text-h5">Coinbase</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End body -->
+    <!-- Start footer -->
+    <div class="px-7 py-10 md:px-[72px] bg-Background-Secondry space-y-7 xl:space-y-0 xl:flex xl:justify-between xl:px-36 xl:py-12">
+        <div class="space-y-5">
+            <img class="w-60" src="images/logo.svg" alt="logo">
+            <p class="text-Base(body) xl:w-60 text-Footer hover:scale-95 click">NFT marketplace UI created with Anima for Figma.</p>
+            <div class="space-y-3.5">
+                <p class="text-Base(body) text-Footer">Join our community</p>
+                <div class="flex gap-2.5">
+                    <img class=" hover:scale-95 click" src="images/DiscordLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/YoutubeLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/TwitterLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/InstagramLogo.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="space-y-5">
+            <h1 class="text-h5-spaceMono font-space-mono xl:mb-1">Explore</h1>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Marketplace</p>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Rankings</p>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Connect a wallet</p>
+        </div>
+        <div class="space-y-5">
+            <h1 class="text-h5-spaceMono font-space-mono">Join Our Weekly Digest</h1>
+            <p class="text-Base(body) xl:w-60 text-Footer hover:scale-95 click">Get exclusive promotions & updates straight to your inbox.</p>
+            <div class="space-y-4 md:space-y-0 md:w-[420px] md:relative xl:mt-8 xl:space-y-0">
+                <input class="flex w-full items-center justify-start h-12 rounded-2xl py-3 px-5 text-Base(body) placeholder:font-normal placeholder:text-Base(body) placeholder:text-Background" type="text" name="" placeholder="Enter Your Email Address">
+                <button class="flex w-full md:w-2/5 md:absolute md:top-0 md:right-0  items-center justify-center h-12 bg-Action rounded-2xl space-x-3 text-h6  hover:scale-95 click">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.875 4.375C1.875 4.02982 2.15482 3.75 2.5 3.75H17.5C17.8452 3.75 18.125 4.02982 18.125 4.375V15C18.125 15.3315 17.9933 15.6495 17.7589 15.8839C17.5245 16.1183 17.2065 16.25 16.875 16.25H3.125C2.79348 16.25 2.47554 16.1183 2.24112 15.8839C2.0067 15.6495 1.875 15.3315 1.875 15V4.375ZM3.125 5V15H16.875V5H3.125Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03928 3.95268C2.27253 3.69823 2.66788 3.68104 2.92233 3.91428L10 10.4021L17.0777 3.91428C17.3321 3.68104 17.7275 3.69823 17.9607 3.95268C18.194 4.20713 18.1768 4.60248 17.9223 4.83573L10.4223 11.7107C10.1834 11.9298 9.81663 11.9298 9.57768 11.7107L2.07768 4.83573C1.82323 4.60248 1.80604 4.20713 2.03928 3.95268Z" fill="white"/>
+                    </svg>            
+                    <p>Subscribe</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+</body>
+</html>
