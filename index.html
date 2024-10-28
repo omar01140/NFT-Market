@@ -68,10 +68,10 @@
         <div class="md:grid md:grid-cols-2 xl:grid-cols-3 md:gap-[30px]">
             <div class="max-w-[600px] mx-auto ">
                 <div class="grid grid-cols-3 gap-3 mb-4 max-w-[600px] mx-auto ">
-                    <img class="col-span-3 hover:scale-95 click" src="images/Primary Photo Placeholder(2).png" alt="img">
-                    <img class=" hover:scale-95 click" src="images/Secondary Photo Placeholder(3).png" alt="img">
-                    <img class=" hover:scale-95 click" src="images/Secondary Photo Placeholder.png" alt="img">
-                    <div class="bg-Action h-full w-full rounded-2xl sm:rounded-3xl flex justify-center items-center text-h-spaceMono sm:text-h5-spaceMono font-space-mono hover:scale-95 click">1025+</div>
+                    <img class="nftPage col-span-3 hover:scale-95 click" src="images/Primary Photo Placeholder(2).png" alt="img">
+                    <img class="nftPage  hover:scale-95 click" src="images/Secondary Photo Placeholder(3).png" alt="img">
+                    <img class="nftPage  hover:scale-95 click" src="images/Secondary Photo Placeholder.png" alt="img">
+                    <div class="nftPage bg-Action h-full w-full rounded-2xl sm:rounded-3xl flex justify-center items-center text-h-spaceMono sm:text-h5-spaceMono font-space-mono hover:scale-95 click">1025+</div>
                 </div>
                 <h1 class="text-h4 mb-2.5">DSGN Animals</h1>
                 <div class="flex justify-start gap-2 items-center">
@@ -481,5 +481,12 @@
         </div>
     </div>
     <!-- End footer -->
+    <script>
+        document.querySelectorAll(".nftPage").forEach(e =>{
+            e.addEventListener("click", function() {
+                window.location.href= 'NFT page.html'
+            })
+        })
+    </script>
 </body>
 </html>

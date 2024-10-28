@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <link href="output.css" rel="stylesheet">
+    <title>NFT</title>
+</head>
+<body class="bg-Background flex flex-col text-Text font-work-sans">
+    <!-- Start Nav -->
+    <nav class="flex justify-between items-center px-7 py-4 xl:px-[50px] xl:py-5">
+        <a href="index.html">
+            <img class="max-w-40 xl:max-w-60 xl:h-8 cursor-pointer" src="images/logo.svg" alt="logo">
+        </a>
+        <div class="hidden xl:flex gap-2.5 w-fit">
+            <a href="MarketPlace.html">
+                <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Marketplace</button>
+            </a>
+            <button class="px-5 py-3 w-fit text-h6 hover:scale-95 click">Rankings</button>
+            <a href="connect wallet.html"><button class="px-5 py-3 w-fit text-h6 text-nowrap hover:scale-95 click">Connect a wallet</button></a>
+            <a href="createAcc.html">
+                <button class="flex w-[150px] items-center justify-center h-[50px] bg-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.124C8.57374 13.124 7.17251 13.4995 5.93728 14.2128C4.70205 14.926 3.67634 15.9518 2.96327 17.1872C2.79071 17.4861 2.40848 17.5886 2.10953 17.416C1.81058 17.2435 1.70812 16.8612 1.88068 16.5623C2.70345 15.1369 3.88696 13.9532 5.31223 13.1303C6.7375 12.3073 8.3543 11.874 10.0001 11.874C11.6459 11.874 13.2627 12.3073 14.688 13.1303C16.1132 13.9532 17.2968 15.1369 18.1195 16.5623C18.2921 16.8612 18.1896 17.2435 17.8907 17.416C17.5917 17.5886 17.2095 17.4861 17.0369 17.1872C16.3239 15.9518 15.2982 14.926 14.0629 14.2128C12.8277 13.4995 11.4265 13.124 10.0001 13.124Z" fill="white"/>
+                    </svg>
+                    <p>Sign Up</p>
+                </button>
+            </a>
+        </div>
+        <div class="space-y-1 xl:hidden">
+            <div class="w-4 h-0.5 bg-Text"></div>
+            <div class="w-5 h-0.5 bg-Text"></div>
+            <div class="w-4 h-0.5 bg-Text"></div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+    <!-- Start body -->
+    <img class="sm:hidden h-[320px]" src="images/nft s.png" alt="img">
+    <img class="hidden sm:block xl:hidden h-[420px]" src="images/nft2.png" alt="img">
+    <img class="hidden xl:block h-[560px]" src="images/nft3.png" alt="img">
+    <div class="py-[40px] px-[30px] md:px-[72px] xl:px-[115px] space-y-5 md:space-y-0 sm:relative">
+        <div class="space-y-2.5 mb-[30px]">
+            <h1 class="text-h4 md:text-h3 xl:text-h2">The Orbitians</h1>
+            <p class="text-Base(body) text-Label">Minted on Sep 30, 2022</p>
+        </div>
+        <div class="bg-Background-Secondry bg-opacity-60 backdrop-blur-md rounded-2xl w-full sm:max-w-[300px] sm:absolute sm:right-[30px] md:right-[72px] xl:right-[115px] sm:top-[30px] mx-auto p-[30px] space-y-[30px]">
+            <div class="w-[235px] mx-auto">
+                <p class="text-caption-spaceMono font-space-mono mb-2.5 w-fit">Auction ends in:</p>
+                <div class="flex gap-2.5 w-fit justify-center mx-auto">
+                    <p class="text-h3 font-space-mono flex flex-col">12<span class="text-caption-spaceMono">Hours</span></p>
+                    <p class="text-h4 font-space-mono">:</p>
+                    <p class="text-h3 font-space-mono flex flex-col">30<span class="text-caption-spaceMono">Hours</span></p>
+                    <p class="text-h4 font-space-mono">:</p>
+                    <p class="text-h3 font-space-mono flex flex-col">49<span class="text-caption-spaceMono">Hours</span></p>
+                </div>
+            </div>
+            <button class="flex max-w-[300px] w-full mx-auto items-center justify-center h-[60px] bg-Action rounded-2xl space-x-3 text-h6 hover:scale-95 click">
+                <p>Place Bid</p>
+            </button>
+        </div>
+        <div class="space-y-5 md:space-y-[30px] sm:max-w-[365px] xl:max-w-[605px]">
+            <div class="space-y-[11px]">
+                <p class="text-Base(body) xl:text-h5-spaceMono font-space-mono text-Label">Created By</p>
+                <div class="flex gap-3 items-center">
+                    <img class="w-6 h-6" src="images/Avatar Placeholder4.png" alt="img">
+                    <p class="text-Base(body) xl:text-h5">Dish Studio</p>
+                </div>
+            </div>
+            <div class="space-y-2.5" >
+                <p class="text-Base(body) xl:text-h5-spaceMono font-space-mono text-Label">Description</p>
+                <div class="text-Base(body) xl:text-body space-y-4">
+                    <p>The Orbitians <br>is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p>
+                    <p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch are Orbitians.</p>
+                    <p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p>
+                    <p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>
+                </div>
+            </div>
+            <div class="space-y-2.5">
+                <p class="text-Base(body) xl:text-h5-spaceMono font-space-mono text-Label">Details</p>
+                <div class="flex gap-2.5 xl:items-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75C7.44365 3.75 3.75 7.44365 3.75 12C3.75 16.5563 7.44365 20.25 12 20.25C16.5563 20.25 20.25 16.5563 20.25 12C20.25 7.44365 16.5563 3.75 12 3.75ZM2.25 12C2.25 6.61522 6.61522 2.25 12 2.25C17.3848 2.25 21.75 6.61522 21.75 12C21.75 17.3848 17.3848 21.75 12 21.75C6.61522 21.75 2.25 17.3848 2.25 12Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76562 9C2.76562 8.58579 3.10141 8.25 3.51562 8.25H20.4844C20.8986 8.25 21.2344 8.58579 21.2344 9C21.2344 9.41421 20.8986 9.75 20.4844 9.75H3.51562C3.10141 9.75 2.76562 9.41421 2.76562 9Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76562 15C2.76562 14.5858 3.10141 14.25 3.51562 14.25H20.4844C20.8986 14.25 21.2344 14.5858 21.2344 15C21.2344 15.4142 20.8986 15.75 20.4844 15.75H3.51562C3.10141 15.75 2.76562 15.4142 2.76562 15Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0378 6.10405C9.4079 7.57484 9 9.659 9 12.0004C9 14.3418 9.4079 16.4259 10.0378 17.8967C10.3533 18.6335 10.7097 19.1817 11.0673 19.5349C11.4217 19.8849 11.736 20.0066 12 20.0066C12.264 20.0066 12.5783 19.8849 12.9327 19.5349C13.2903 19.1817 13.6467 18.6335 13.9622 17.8967C14.5921 16.4259 15 14.3418 15 12.0004C15 9.659 14.5921 7.57484 13.9622 6.10405C13.6467 5.36731 13.2903 4.81904 12.9327 4.46587C12.5783 4.11587 12.264 3.99414 12 3.99414C11.736 3.99414 11.4217 4.11587 11.0673 4.46587C10.7097 4.81904 10.3533 5.36731 10.0378 6.10405ZM10.0133 3.39863C10.5562 2.86245 11.2284 2.49414 12 2.49414C12.7716 2.49414 13.4438 2.86245 13.9867 3.39863C14.5264 3.93164 14.978 4.66569 15.3411 5.51353C16.0684 7.21187 16.5 9.50584 16.5 12.0004C16.5 14.4949 16.0684 16.7889 15.3411 18.4873C14.978 19.3351 14.5264 20.0691 13.9867 20.6022C13.4438 21.1383 12.7716 21.5066 12 21.5066C11.2284 21.5066 10.5562 21.1383 10.0133 20.6022C9.47362 20.0691 9.02201 19.3351 8.65891 18.4873C7.93157 16.7889 7.5 14.4949 7.5 12.0004C7.5 9.50584 7.93157 7.21187 8.65891 5.51353C9.02201 4.66569 9.47362 3.93164 10.0133 3.39863Z" fill="#858584"/>
+                    </svg>
+                    <p class="text-Base(body) xl:text-body">View on Etherscan</p>
+                </div>
+                <div class="flex gap-2.5 xl:items-center">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.75C7.44365 3.75 3.75 7.44365 3.75 12C3.75 16.5563 7.44365 20.25 12 20.25C16.5563 20.25 20.25 16.5563 20.25 12C20.25 7.44365 16.5563 3.75 12 3.75ZM2.25 12C2.25 6.61522 6.61522 2.25 12 2.25C17.3848 2.25 21.75 6.61522 21.75 12C21.75 17.3848 17.3848 21.75 12 21.75C6.61522 21.75 2.25 17.3848 2.25 12Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76562 9C2.76562 8.58579 3.10141 8.25 3.51562 8.25H20.4844C20.8986 8.25 21.2344 8.58579 21.2344 9C21.2344 9.41421 20.8986 9.75 20.4844 9.75H3.51562C3.10141 9.75 2.76562 9.41421 2.76562 9Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.76562 15C2.76562 14.5858 3.10141 14.25 3.51562 14.25H20.4844C20.8986 14.25 21.2344 14.5858 21.2344 15C21.2344 15.4142 20.8986 15.75 20.4844 15.75H3.51562C3.10141 15.75 2.76562 15.4142 2.76562 15Z" fill="#858584"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0378 6.10405C9.4079 7.57484 9 9.659 9 12.0004C9 14.3418 9.4079 16.4259 10.0378 17.8967C10.3533 18.6335 10.7097 19.1817 11.0673 19.5349C11.4217 19.8849 11.736 20.0066 12 20.0066C12.264 20.0066 12.5783 19.8849 12.9327 19.5349C13.2903 19.1817 13.6467 18.6335 13.9622 17.8967C14.5921 16.4259 15 14.3418 15 12.0004C15 9.659 14.5921 7.57484 13.9622 6.10405C13.6467 5.36731 13.2903 4.81904 12.9327 4.46587C12.5783 4.11587 12.264 3.99414 12 3.99414C11.736 3.99414 11.4217 4.11587 11.0673 4.46587C10.7097 4.81904 10.3533 5.36731 10.0378 6.10405ZM10.0133 3.39863C10.5562 2.86245 11.2284 2.49414 12 2.49414C12.7716 2.49414 13.4438 2.86245 13.9867 3.39863C14.5264 3.93164 14.978 4.66569 15.3411 5.51353C16.0684 7.21187 16.5 9.50584 16.5 12.0004C16.5 14.4949 16.0684 16.7889 15.3411 18.4873C14.978 19.3351 14.5264 20.0691 13.9867 20.6022C13.4438 21.1383 12.7716 21.5066 12 21.5066C11.2284 21.5066 10.5562 21.1383 10.0133 20.6022C9.47362 20.0691 9.02201 19.3351 8.65891 18.4873C7.93157 16.7889 7.5 14.4949 7.5 12.0004C7.5 9.50584 7.93157 7.21187 8.65891 5.51353C9.02201 4.66569 9.47362 3.93164 10.0133 3.39863Z" fill="#858584"/>
+                    </svg>
+                    <p class="text-Base(body) xl:text-body">View Original</p>
+                </div>
+            </div>
+            <div class="space-y-5">
+                <p class="text-Base(body) xl:text-h5-spaceMono font-space-mono text-Label">Tags</p>
+                <div class="space-y-5 xl:space-y-0 xl:flex xl:justify-start xl:items-center xl:gap-5">
+                    <div class="text-h6 px-[30px] py-3 w-fit bg-Background-Secondry rounded-full">ANIMATION</div>
+                    <div class="text-h6 px-[30px] py-3 w-fit bg-Background-Secondry rounded-full">ILLUSTRATION</div>
+                    <div class="text-h6 px-[30px] py-3 w-fit bg-Background-Secondry rounded-full">MOON</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-[40px] px-[30px] md:px-[72px] xl:px-[115px] space-y-[30px] md:space-y-0 md:grid md:grid-cols-2">
+    <div class="md:order-1">
+        <h1 class="text-h4 xl:text-h3 mb-2.5">More from this artist</h1>
+    </div>
+    <div class="md:order-3 md:col-span-2">
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-[30px] justify-items-center">
+            <div class="bg-Background-Secondry flex justify-center items-start flex-col rounded-3xl xl:rounded-[2.1rem] w-fit hover:scale-95 click">
+                <img src="images/Image Placeholder.png" alt="img">
+                <div class="flex flex-col gap-[5px] mx-5 mt-5 items-start">
+                    <h1 class="text-h5">Distant Galaxy</h1>
+                    <div class="flex gap-3">
+                        <img class="w-6 h-6" src="images/Avatar Placeholder4.png" alt="img">
+                        <p class="text-Base(body) font-space-mono">Dish Studio</p>
+                    </div>
+                </div>
+                <div class="flex justify-between px-5 py-6 w-full">
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-start">Price<span class="text-Text">1.63 ETH</span></p>
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-end">Highest Bid<span class="text-Text">0.33 wETH</span></p>
+                </div>
+            </div>
+            <div class="bg-Background-Secondry flex justify-center items-start flex-col rounded-3xl xl:rounded-[2.1rem] w-fit hover:scale-95 click">
+                <img src="images/Image Placeholder card1.png" alt="img">
+                <div class="flex flex-col gap-[5px] mx-5 mt-5 items-start">
+                    <h1 class="text-h5">Life on Edena</h1>
+                    <div class="flex gap-3">
+                        <img class="w-6 h-6" src="images/Avatar Placeholder4.png" alt="img">
+                        <p class="text-Base(body) font-space-mono">Dish Studio</p>
+                    </div>
+                </div>
+                <div class="flex justify-between px-5 py-6 w-full">
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-start">Price<span class="text-Text">1.63 ETH</span></p>
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-end">Highest Bid<span class="text-Text">0.33 wETH</span></p>
+                </div>
+            </div>
+            <div class="sm:hidden xl:flex bg-Background-Secondry flex justify-center items-start flex-col rounded-3xl xl:rounded-[2.1rem] w-fit hover:scale-95 click">
+                <img src="images/Image Placeholder card2.png" alt="img">
+                <div class="flex flex-col gap-[5px] mx-5 mt-5 items-start">
+                    <h1 class="text-h5">AstroFiction</h1>
+                    <div class="flex gap-3">
+                        <img class="w-6 h-6" src="images/Avatar Placeholder4.png" alt="img">
+                        <p class="text-Base(body) font-space-mono">Dish Studio</p>
+                    </div>
+                </div>
+                <div class="flex justify-between px-5 py-6 w-full">
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-start">Price<span class="text-Text">1.63 ETH</span></p>
+                    <p class="text-caption-spaceMono font-space-mono text-Label flex flex-col gap-2 items-end">Highest Bid<span class="text-Text">0.33 wETH</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="md:order-2 w-fit h-fit md:justify-self-end" href="artist page.html">
+            <button class="flex items-center justify-center md:justify-self-end md:self-center space-x-3 text-h6 w-full md:w-56 xl:w-[187px] h-[60px] border-2 border-Action rounded-2xl mt-10 md:mb-[60px] md:mt-0 xl:mt-0 hover:scale-95 click">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 10C2.5 9.65482 2.77982 9.375 3.125 9.375H16.875C17.2202 9.375 17.5 9.65482 17.5 10C17.5 10.3452 17.2202 10.625 16.875 10.625H3.125C2.77982 10.625 2.5 10.3452 2.5 10Z" fill="#A259FF"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8081 3.93306C11.0521 3.68898 11.4479 3.68898 11.6919 3.93306L17.3169 9.55806C17.561 9.80214 17.561 10.1979 17.3169 10.4419L11.6919 16.0669C11.4479 16.311 11.0521 16.311 10.8081 16.0669C10.564 15.8229 10.564 15.4271 10.8081 15.1831L15.9911 10L10.8081 4.81694C10.564 4.57286 10.564 4.17714 10.8081 3.93306Z" fill="#A259FF"/>
+                </svg>
+                <p>Go To Artist Page</p>
+            </button>
+        </a>
+    </div>
+    <!-- End body -->
+    <!-- Start footer -->
+    <div class="px-7 py-10 md:px-[72px] bg-Background-Secondry space-y-7 xl:space-y-0 xl:flex xl:justify-between xl:px-36 xl:py-12">
+        <div class="space-y-5">
+            <img class="w-60" src="images/logo.svg" alt="logo">
+            <p class="text-Base(body) xl:w-60 text-Footer hover:scale-95 click">NFT marketplace UI created with Anima for Figma.</p>
+            <div class="space-y-3.5">
+                <p class="text-Base(body) text-Footer">Join our community</p>
+                <div class="flex gap-2.5">
+                    <img class=" hover:scale-95 click" src="images/DiscordLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/YoutubeLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/TwitterLogo.svg" alt="logo">
+                    <img class=" hover:scale-95 click" src="images/InstagramLogo.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="space-y-5">
+            <h1 class="text-h5-spaceMono font-space-mono xl:mb-1">Explore</h1>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Marketplace</p>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Rankings</p>
+            <p class="text-Base(body) text-Footer hover:scale-95 click">Connect a wallet</p>
+        </div>
+        <div class="space-y-5">
+            <h1 class="text-h5-spaceMono font-space-mono">Join Our Weekly Digest</h1>
+            <p class="text-Base(body) xl:w-60 text-Footer hover:scale-95 click">Get exclusive promotions & updates straight to your inbox.</p>
+            <div class="space-y-4 md:space-y-0 md:w-[420px] md:relative xl:mt-8 xl:space-y-0">
+                <input class="flex w-full items-center justify-start h-12 rounded-2xl py-3 px-5 text-Base(body) placeholder:font-normal placeholder:text-Base(body) placeholder:text-Background" type="text" name="" placeholder="Enter Your Email Address">
+                <button class="flex w-full md:w-2/5 md:absolute md:top-0 md:right-0  items-center justify-center h-12 bg-Action rounded-2xl space-x-3 text-h6  hover:scale-95 click">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.875 4.375C1.875 4.02982 2.15482 3.75 2.5 3.75H17.5C17.8452 3.75 18.125 4.02982 18.125 4.375V15C18.125 15.3315 17.9933 15.6495 17.7589 15.8839C17.5245 16.1183 17.2065 16.25 16.875 16.25H3.125C2.79348 16.25 2.47554 16.1183 2.24112 15.8839C2.0067 15.6495 1.875 15.3315 1.875 15V4.375ZM3.125 5V15H16.875V5H3.125Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.03928 3.95268C2.27253 3.69823 2.66788 3.68104 2.92233 3.91428L10 10.4021L17.0777 3.91428C17.3321 3.68104 17.7275 3.69823 17.9607 3.95268C18.194 4.20713 18.1768 4.60248 17.9223 4.83573L10.4223 11.7107C10.1834 11.9298 9.81663 11.9298 9.57768 11.7107L2.07768 4.83573C1.82323 4.60248 1.80604 4.20713 2.03928 3.95268Z" fill="white"/>
+                    </svg>            
+                    <p>Subscribe</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End footer -->
+</body>
+</html>
